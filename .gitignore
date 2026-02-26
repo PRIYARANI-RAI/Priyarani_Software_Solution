@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Build folders
+dist/
+build/
+
+# IDE files
+.vscode/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backend specific
+backend/node_modules/
+
+
+# Frontend specific
+frontend/node_modules/
+frontend/build/
