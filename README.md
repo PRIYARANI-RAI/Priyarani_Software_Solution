@@ -195,9 +195,6 @@ The application uses 5 main collections:
 ### Client Dashboard
 ![Client Dashboard](screenshots/client-dashboard.png)
 
-### Messaging System
-![Messaging](screenshots/messaging.png)
-
 ## 🔒 Security Features
 
 - JWT-based authentication
