@@ -6,12 +6,10 @@ import { capitalize } from '../../utils/formatHelper';
 
 const AdminServiceRequests = () => {
   const [requests, setRequests] = useState([]);
-  const [clients, setClients] = useState([]);
   const [employees, setEmployees] = useState([]);
 
   useEffect(() => {
     fetchRequests();
-    API.get('/users/role/client').then(res => setClients(res.data));
     API.get('/users/role/employee').then(res => setEmployees(res.data));
   }, []);
 
