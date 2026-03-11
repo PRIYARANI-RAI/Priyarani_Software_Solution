@@ -10,7 +10,7 @@ const options = {
     },
     servers: [
       {
-        url: 'http://localhost:5000',
+        url: 'https://priyarani-software-solution.onrender.com',
         description: 'Development server',
       },
     ],
